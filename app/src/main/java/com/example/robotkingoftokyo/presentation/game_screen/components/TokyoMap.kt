@@ -102,7 +102,7 @@ fun TokyoMap(
 
                     if (tokyoBayRobot != null) {
                         Image(
-                            painter = painterResource(id = R.drawable.robot_red),
+                            painter = painterResource(id = tokyoBayRobot.image),
                             contentDescription = null,
                             modifier = modifier
                                 .size(150.dp)
